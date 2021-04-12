@@ -17,6 +17,7 @@ parser.add_argument("--has-head", default=False, action='store_true', help="whet
 parser.add_argument("--title", type=str, default='', help="title")
 parser.add_argument("--rows", type=str, default='', help="row names")
 parser.add_argument("--columns", type=str, default='', help="column  names")
+parser.add_argument("--row-col", type=int, default=-1, help="which column stores the row label")
 parser.add_argument("--cbar-title", type=str, default='', help="title of color bar")
 args = parser.parse_args()
 
@@ -61,6 +62,7 @@ def draw_confusion_matrix(conf_matrix, title, xaxis_title, yaxis_title, cbar_tit
 def main():
     sims = list()
     cols = args.columns.strip().split(',') if args.columns else None
+    rows = args.rows.strip().split(',') if args.rows else None
     with open(args.input, 'r') as ips:
         is_first_line = True
         delimiter = ',' if args.input.endswith("csv") else '\t'
@@ -68,13 +70,18 @@ def main():
             if is_first_line:
                 is_first_line = False
                 if args.has_head:
-                    if len(cols) == 0:
-                        cols = line.strip().spit(delimiter)
+                    if not cols:
+                        cols = line.strip().split(delimiter)
+                        if args.row_col >= 0:
+                            del cols[args.row_col:args.row_col+1]
+                            rows = list()
                     continue
             rc_vals = line.strip().split(delimiter)
+            if args.row_col >= 0:
+                rows.append(rc_vals[args.row_col])
+                del rc_vals[args.row_col:args.row_col+1]
             sims.append([float(v) for v in rc_vals])
-
-    rows = args.rows.strip().split(',') if args.rows else None
+    
     if not cols:
         cols = list(range(len(sims[0])))
     if not rows:
