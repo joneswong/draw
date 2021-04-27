@@ -89,6 +89,13 @@ def main():
                     is_first_line = False
                     continue
                 vals = line.strip().split(delimiter)
+                to_exclude = False
+                for v, tgtv in zip(vals, considered_values):
+                    if tgtv and v != tgtv:
+                        to_exclude = True
+                        break
+                if to_exclude:
+                    continue
                 for i, v in enumerate(vals):
                     try:
                         new_v = float(v)
