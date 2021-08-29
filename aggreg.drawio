@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-29T09:08:11.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="M7XEiJvCFaWAWiuo5907" version="14.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-29T11:36:12.138Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="fjlSg8ZMFrTncUJmLfyC" version="15.0.3" type="github">
   <diagram id="9bPP2De1LOX7Vk7gVH74" name="Page-1">
-    <mxGraphModel dx="946" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,8 +100,8 @@
         <mxCell id="TmiVogRWUnr-1L7LNPXS-22" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick" parent="1" vertex="1">
           <mxGeometry x="330" y="690" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TmiVogRWUnr-1L7LNPXS-23" value="&lt;i&gt;&lt;font style=&quot;font-size: 28px&quot;&gt;add/mean&lt;/font&gt;&lt;/i&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="355" y="650" width="140" height="30" as="geometry" />
+        <mxCell id="TmiVogRWUnr-1L7LNPXS-23" value="&lt;i&gt;&lt;font style=&quot;font-size: 28px&quot;&gt;sum/mean&lt;/font&gt;&lt;/i&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="350" y="650" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TmiVogRWUnr-1L7LNPXS-25" value="&lt;font style=&quot;font-size: 28px&quot;&gt;max/min&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="360" y="690" width="120" height="30" as="geometry" />
@@ -118,8 +118,8 @@
         <mxCell id="TmiVogRWUnr-1L7LNPXS-29" value="&lt;i&gt;&lt;font style=&quot;font-size: 28px&quot;&gt;max/min&lt;/font&gt;&lt;/i&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="180" y="480" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="TmiVogRWUnr-1L7LNPXS-30" value="&lt;font style=&quot;font-size: 28px&quot;&gt;add/mean&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="170" y="520" width="140" height="30" as="geometry" />
+        <mxCell id="TmiVogRWUnr-1L7LNPXS-30" value="&lt;font style=&quot;font-size: 28px&quot;&gt;sum/mean&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="165" y="520" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
