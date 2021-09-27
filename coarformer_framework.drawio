@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T09:53:52.492Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="oRj16HzJvTqW8iMRoT3F" version="15.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T10:10:41.675Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="ukYVtRo8KELqpAsxzumB" version="15.3.3" type="github">
   <diagram id="CfByyXH98lyFo_TxjOTY" name="Page-1">
     <mxGraphModel dx="652" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="300" math="1" shadow="0">
       <root>
@@ -478,14 +478,14 @@
           <mxGeometry x="515" y="95" width="30" height="10" as="geometry" />
         </mxCell>
         <mxCell id="TVpiPLjPCfYYswbtp5a_-127" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.summing_function;hachureGap=4;pointerEvents=0;strokeColor=#36393d;fillColor=#ffcccc;gradientDirection=radial;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="570" y="50" width="15" height="15" as="geometry" />
+          <mxGeometry x="570" y="57.5" width="15" height="15" as="geometry" />
         </mxCell>
         <mxCell id="TVpiPLjPCfYYswbtp5a_-129" value="&lt;font color=&quot;#e51400&quot;&gt;&lt;span style=&quot;font-size: 5px&quot;&gt;Cross&lt;br&gt;propagation&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="599.9999999999999" y="99.99793103448279" as="geometry" />
         </mxCell>
         <mxCell id="TVpiPLjPCfYYswbtp5a_-130" value="" style="endArrow=classic;html=1;startSize=14;endSize=1;sourcePerimeterSpacing=2;targetPerimeterSpacing=14;strokeColor=#000000;strokeWidth=2;fillColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="TVpiPLjPCfYYswbtp5a_-127">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="550" y="57" as="sourcePoint" />
+            <mxPoint x="550" y="65" as="sourcePoint" />
             <mxPoint x="450" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -505,7 +505,7 @@
           <mxGeometry x="470" y="20.000000000000014" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="TVpiPLjPCfYYswbtp5a_-134" value="" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;strokeColor=#000000;strokeWidth=1;fillColor=none;gradientColor=none;gradientDirection=radial;" vertex="1" parent="1">
-          <mxGeometry x="220" y="20" width="130" height="90" as="geometry" />
+          <mxGeometry x="220" y="20" width="120" height="90" as="geometry" />
         </mxCell>
         <mxCell id="TVpiPLjPCfYYswbtp5a_-135" value="Message passing" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;hachureGap=4;pointerEvents=0;" vertex="1" parent="1">
           <mxGeometry x="230" y="15" width="110" height="20" as="geometry" />
@@ -532,7 +532,28 @@
           <mxGeometry x="445" y="50" width="55" height="30.66" as="geometry" />
         </mxCell>
         <mxCell id="TVpiPLjPCfYYswbtp5a_-141" value="Message&lt;br&gt;passing" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;strokeColor=#000000;strokeWidth=1;fillColor=none;gradientColor=none;gradientDirection=radial;" vertex="1" parent="1">
-          <mxGeometry x="375" y="50" width="55" height="30.66" as="geometry" />
+          <mxGeometry x="356" y="50" width="55" height="30.66" as="geometry" />
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-142" value="" style="endArrow=classic;html=1;startSize=14;endSize=1;sourcePerimeterSpacing=2;targetPerimeterSpacing=14;strokeColor=#000000;strokeWidth=2;fillColor=none;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TVpiPLjPCfYYswbtp5a_-140" target="TVpiPLjPCfYYswbtp5a_-122">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="25" as="sourcePoint" />
+            <mxPoint x="470" y="-25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-143" value="" style="endArrow=classic;html=1;startSize=14;endSize=1;sourcePerimeterSpacing=2;targetPerimeterSpacing=14;strokeColor=#000000;strokeWidth=2;fillColor=none;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="TVpiPLjPCfYYswbtp5a_-141" target="TVpiPLjPCfYYswbtp5a_-140">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="150" as="sourcePoint" />
+            <mxPoint x="400" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-144" value="\(\bf{X}\)" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="155" y="120" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-145" value="\(\bf{P}^{\text{T}}\)" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="97.5" y="120" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-147" value="\(\mathbf{Z}^{(2)}\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="390" y="5.000000000000014" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
