@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T08:02:12.326Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="JusaK7TDEHbiYvbvJrzb" version="15.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-27T08:37:09.067Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="B6BNuqZ58g_6ypmaDXtd" version="15.3.3" type="github">
   <diagram id="CfByyXH98lyFo_TxjOTY" name="Page-1">
-    <mxGraphModel dx="1188" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="300" math="1" shadow="0">
+    <mxGraphModel dx="1052" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="300" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="TVpiPLjPCfYYswbtp5a_-34" value="" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;strokeColor=#000000;fillColor=#b1ddf0;opacity=40;" vertex="1" parent="1">
           <mxGeometry x="240" y="131" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-91" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=openThin;startFill=0;endArrow=open;endFill=0;endSize=5;sourcePerimeterSpacing=2;targetPerimeterSpacing=14;strokeColor=#000000;strokeWidth=2;" edge="1" parent="1" source="TVpiPLjPCfYYswbtp5a_-33" target="TVpiPLjPCfYYswbtp5a_-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TVpiPLjPCfYYswbtp5a_-33" value="" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;strokeColor=#000000;fillColor=#b1ddf0;opacity=70;" vertex="1" parent="1">
           <mxGeometry x="235" y="134.16" width="40" height="20" as="geometry" />
@@ -258,12 +261,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TVpiPLjPCfYYswbtp5a_-48" value="" style="endArrow=open;html=1;startSize=14;endSize=7;sourcePerimeterSpacing=2;targetPerimeterSpacing=14;strokeWidth=2;endFill=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="280" y="180.31" as="sourcePoint" />
-            <mxPoint x="320" y="180.31" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="TVpiPLjPCfYYswbtp5a_-49" value="" style="endArrow=classic;html=1;startSize=14;endSize=7;sourcePerimeterSpacing=2;targetPerimeterSpacing=14;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="210" y="270" as="sourcePoint" />
@@ -365,6 +362,48 @@
         </mxCell>
         <mxCell id="TVpiPLjPCfYYswbtp5a_-86" value="" style="whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;pointerEvents=0;strokeColor=#E51400;fillColor=#E51400;fontColor=#ffffff;opacity=80;" vertex="1" parent="1">
           <mxGeometry x="155" y="159.37" width="5" height="5" as="geometry" />
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-87" value="" style="endArrow=open;html=1;startSize=14;endSize=7;sourcePerimeterSpacing=2;targetPerimeterSpacing=14;strokeColor=#000000;strokeWidth=2;endFill=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="90" as="sourcePoint" />
+            <mxPoint x="400" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-90" value="" style="shape=flexArrow;endArrow=classic;html=1;startSize=14;endSize=1.5904761904761904;sourcePerimeterSpacing=2;targetPerimeterSpacing=14;strokeColor=#000000;strokeWidth=2;width=5;entryX=0;entryY=0;entryDx=0;entryDy=0;endWidth=8.458049886621316;" edge="1" parent="1" target="TVpiPLjPCfYYswbtp5a_-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="282" y="144" as="sourcePoint" />
+            <mxPoint x="320" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="144" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-93" value="" style="shape=flexArrow;endArrow=classic;html=1;endSize=1;sourcePerimeterSpacing=2;targetPerimeterSpacing=14;strokeColor=#000000;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;width=5;startSize=14;endWidth=12.222222222222221;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="281" y="179" as="sourcePoint" />
+            <mxPoint x="319" y="179.36999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-94" value="\(\mathbf{Q}\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="288.5" y="126.25" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-95" value="\(\mathbf{K}\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="280" y="156.87" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-96" value="" style="shape=flexArrow;endArrow=classic;html=1;startSize=14;endSize=1.0555555555555556;sourcePerimeterSpacing=2;targetPerimeterSpacing=14;strokeColor=#000000;strokeWidth=2;width=5;endWidth=11.944444444444445;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="281" y="212" as="sourcePoint" />
+            <mxPoint x="376" y="195" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="376" y="212" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-97" value="\(\mathbf{V}\)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;pointerEvents=0;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TVpiPLjPCfYYswbtp5a_-100" value="Concat" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;pointerEvents=0;strokeColor=#36393d;fillColor=#ffff88;gradientDirection=radial;opacity=80;" vertex="1" parent="1">
+          <mxGeometry x="460" y="160" width="50" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
