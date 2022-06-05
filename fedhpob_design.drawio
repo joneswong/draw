@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-05T11:21:07.275Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="A1cy8Mxo_-7hbuFeSpyb" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-05T11:23:55.789Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="odAV6Tg5uq3shcvOcm7E" version="19.0.0" type="github">
   <diagram id="iwR6yPItQQJGJg9-1ldd" name="Page-1">
     <mxGraphModel dx="676" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="300" math="1" shadow="0">
       <root>
@@ -133,7 +133,7 @@
         <mxCell id="R90MDmcdATO7kXtSMja6-45" value="Surrogate mode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=1;" parent="1" vertex="1">
           <mxGeometry x="335" y="130" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="R90MDmcdATO7kXtSMja6-46" value="&lt;b&gt;HPO method&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=1;fillColor=none;strokeColor=#000000;" parent="1" vertex="1">
+        <mxCell id="R90MDmcdATO7kXtSMja6-46" value="HPO method" style="rounded=0;whiteSpace=wrap;html=1;fontSize=1;fillColor=none;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="30" y="30" width="240" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R90MDmcdATO7kXtSMja6-47" value="Raw mode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=1;" parent="1" vertex="1">
