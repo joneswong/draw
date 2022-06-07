@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-07T05:43:25.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="Pyko4QJ3LonX2PZuTS1d" version="19.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-07T05:55:58.853Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36" etag="naIbwMvCp8ZBn7XPLyFX" version="19.0.0" type="github">
   <diagram id="nS2EK5IVfa8JMNXDdASN" name="Page-1">
     <mxGraphModel dx="1318" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="300" math="1" shadow="0">
       <root>
@@ -71,7 +71,7 @@
           <mxGeometry x="155" y="150" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MhH44BmzcimzEkGrFkP5-24" value="$$\text{Client}_N$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="160" width="50" height="20" as="geometry" />
+          <mxGeometry x="300" y="160" width="50" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MhH44BmzcimzEkGrFkP5-25" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#B5739D;fillColor=#ffcd28;gradientColor=#ffa500;entryX=0.162;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="MhH44BmzcimzEkGrFkP5-1" target="MhH44BmzcimzEkGrFkP5-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -97,23 +97,38 @@
             <mxPoint x="374.44" y="70.08000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MhH44BmzcimzEkGrFkP5-30" value="&lt;font color=&quot;#b5739d&quot;&gt;$$\text{Send }\theta^{(t)}_i,$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="105" width="60" height="15" as="geometry" />
+        <mxCell id="MhH44BmzcimzEkGrFkP5-30" value="&lt;font color=&quot;#b5739d&quot;&gt;$$\text{Send }\theta^{(t+1)}_i,$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="105" width="80" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="MhH44BmzcimzEkGrFkP5-33" value="&lt;font color=&quot;#b5739d&quot;&gt;$$\pi^{(t)}_i\text{ or }f_i(\lambda_i).$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="122.5" width="90" height="15" as="geometry" />
+        <mxCell id="MhH44BmzcimzEkGrFkP5-33" value="&lt;font color=&quot;#b5739d&quot;&gt;$$\pi^{(t+1)}_i\text{ or }f_i(\lambda_i).$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="122.5" width="90" height="15" as="geometry" />
         </mxCell>
         <mxCell id="MhH44BmzcimzEkGrFkP5-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontColor=#B5739D;" vertex="1" parent="1">
           <mxGeometry x="300" y="30" width="20" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="MhH44BmzcimzEkGrFkP5-35" value="&lt;font color=&quot;#000000&quot;&gt;$$\theta^{(t+1)}=\text{aggr}(\theta^{(t)}_1,\ldots,\theta^{(t)}_N)$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#B5739D;" vertex="1" parent="1">
-          <mxGeometry x="310" y="30" width="180" height="25" as="geometry" />
+        <mxCell id="MhH44BmzcimzEkGrFkP5-35" value="&lt;font color=&quot;#000000&quot;&gt;$$\theta^{(t+1)}=\text{aggr}(\theta^{(t+1)}_1,\ldots,\theta^{(t+1)}_N)$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="310" y="30" width="200" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="MhH44BmzcimzEkGrFkP5-36" value="&lt;font color=&quot;#000000&quot;&gt;$$\pi^{(t+1)}=\text{aggr}(\pi^{(t)}_1,\ldots,\pi^{(t)}_N)\text{ or}$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#B5739D;" vertex="1" parent="1">
-          <mxGeometry x="310" y="55" width="200" height="25" as="geometry" />
+        <mxCell id="MhH44BmzcimzEkGrFkP5-36" value="&lt;font color=&quot;#000000&quot;&gt;$$\pi^{(t+1)}=\text{aggr}(\pi^{(t+1)}_1,\ldots,\pi^{(t+1)}_N)\text{ or}$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="310" y="55" width="220" height="25" as="geometry" />
         </mxCell>
         <mxCell id="MhH44BmzcimzEkGrFkP5-37" value="&lt;font color=&quot;#000000&quot;&gt;$$\pi^{(t+1)}=\text{update}(f_i(\lambda_i),\ldots,f_N(\lambda_N))$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#B5739D;" vertex="1" parent="1">
           <mxGeometry x="300" y="75" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MhH44BmzcimzEkGrFkP5-38" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="390" y="110" width="20" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="MhH44BmzcimzEkGrFkP5-39" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#000000;strokeColor=#000000;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="MhH44BmzcimzEkGrFkP5-24" target="MhH44BmzcimzEkGrFkP5-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="295" y="260" as="sourcePoint" />
+            <mxPoint x="345" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MhH44BmzcimzEkGrFkP5-40" value="$$\text{Sync local model }\theta^{(t)}_i =\theta^{(t)}$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="400" y="110" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MhH44BmzcimzEkGrFkP5-43" value="$$(\text{Sync local policy }\pi^{(t)}_i =\pi^{(t)}\text{ and }\lambda_i \sim\pi^{(t)}_i )$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="370" y="130" width="340" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
