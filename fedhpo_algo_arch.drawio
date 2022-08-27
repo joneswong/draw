@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T08:06:04.079Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="lVC6SKlFm3olRkXGn96c" version="19.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-27T05:44:05.280Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="GWbSoDIotQEeHDKd6S6V" version="19.0.3" type="github">
   <diagram id="nS2EK5IVfa8JMNXDdASN" name="Page-1">
-    <mxGraphModel dx="1930" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="300" math="1" shadow="0">
+    <mxGraphModel dx="1346" dy="531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="400" pageHeight="300" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -109,19 +109,19 @@
         <mxCell id="MhH44BmzcimzEkGrFkP5-34" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontColor=#B5739D;" parent="1" vertex="1">
           <mxGeometry x="300" y="30" width="20" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="MhH44BmzcimzEkGrFkP5-35" value="&lt;font color=&quot;#000000&quot;&gt;$$\theta^{(t+1)}=\text{aggr}_{\text{m}}(\theta^{(t+1)}_1,\ldots,\theta^{(t+1)}_N)$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#B5739D;" parent="1" vertex="1">
+        <mxCell id="MhH44BmzcimzEkGrFkP5-35" value="&lt;font color=&quot;#000000&quot;&gt;$$\theta^{(t+1)}=\text{aggr}(\theta^{(t+1)}_1,\ldots,\theta^{(t+1)}_N)$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#B5739D;" parent="1" vertex="1">
           <mxGeometry x="320" y="30" width="200" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="MhH44BmzcimzEkGrFkP5-36" value="&lt;font color=&quot;#000000&quot;&gt;$$\pi^{(t+1)}=\text{aggr}_{\text{p}}(\pi^{(t+1)}_1,\ldots,\pi^{(t+1)}_N)\text{ or aggr}_{\text{p}}((\lambda_1,f_1(\lambda_1)),\dots,(\lambda_N,f_N(\lambda_N)))$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#B5739D;" parent="1" vertex="1">
+        <mxCell id="MhH44BmzcimzEkGrFkP5-36" value="&lt;font color=&quot;#000000&quot;&gt;$$\pi^{(t+1)}=\text{aggr}(\pi^{(t+1)}_1,\ldots,\pi^{(t+1)}_N)\text{ or aggr}((\lambda_1,f_1(\lambda_1)),\dots,(\lambda_N,f_N(\lambda_N)))$$&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#B5739D;" parent="1" vertex="1">
           <mxGeometry x="320" y="55" width="460" height="25" as="geometry" />
         </mxCell>
         <mxCell id="MhH44BmzcimzEkGrFkP5-38" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontColor=#B5739D;" parent="1" vertex="1">
           <mxGeometry x="380" y="90" width="20" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="MhH44BmzcimzEkGrFkP5-40" value="$$\theta^{(t)}_i =\text{sync}_{\text{m}}(\theta^{(t)}),$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="MhH44BmzcimzEkGrFkP5-40" value="$$\theta^{(t)}_i =\text{sync}(\theta^{(t)}),$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="396.25" y="90" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="MhH44BmzcimzEkGrFkP5-43" value="$$[\pi^{(t)}_i =\text{sync}_{\text{p}}(\pi^{(t)})\text{ and }\lambda_i \sim\pi^{(t)}_i ]$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="MhH44BmzcimzEkGrFkP5-43" value="$$[\pi^{(t)}_i =\text{sync}(\pi^{(t)})\text{ and }\lambda_i \sim\pi^{(t)}_i ]$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="516.25" y="90" width="217.5" height="20" as="geometry" />
         </mxCell>
         <mxCell id="MhH44BmzcimzEkGrFkP5-44" value="$$\theta^{(t)}_i$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
@@ -172,7 +172,7 @@
             <mxPoint x="730" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MhH44BmzcimzEkGrFkP5-57" value="$$[\pi^{(t+1)}_i =\text{update}_{\text{p}}(\lambda_i, f_i(\lambda_i)]$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="MhH44BmzcimzEkGrFkP5-57" value="$$[\pi^{(t+1)}_i =\text{update}(\lambda_i, f_i(\lambda_i)]$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="400" y="160" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
